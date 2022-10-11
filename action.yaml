@@ -3,3 +3,7 @@ description: "xyz"
 runs:
   using: "docker"
   main: "Dockerfile"
+
+branding:
+  icon: 'book'  
+  color: 'purple'
