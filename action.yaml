@@ -2,7 +2,7 @@ name: "My Docker action"
 description: "xyz"
 runs:
   using: "docker"
-  main: "Dockerfile"
+  image: "Dockerfile"
 
 branding:
   icon: 'book'  
