@@ -1,0 +1,14 @@
+name: A Docker Action
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+jobs:
+  user-and-time:
+    runs-on: self-hosted
+    name: Run a bash
+    steps:
+    - name: A simple bash
+      id: BASH
+      uses: Appendino/a-docker-action@main
